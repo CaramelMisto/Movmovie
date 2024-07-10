@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>LOG OUT</title>
+<style>
+    #message {
+        display: none;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 16px;
+        position: fixed;
+        z-index: 1;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 30px;
+        border-radius: 2px;
+        font-size: 17px;
+    }
+
+    h1 {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+</style>
+</head>
+<body  bgcolor="000033"  alink="blue" vlink="#FF8C00" background="RESOURCES\sahne3.jpg" >
+<div align="center" style="padding-top: 300px;">
+    <h1>ARE YOU REALLY WANNA LOG OUT?</h1><BR></BR>
+    <a href="#" id="logoutButton">
+        <button style="background-color: #990b01; color: rgb(255, 255, 255); border-radius: 330px; width: 300px; height:100px; font-size: large">
+            LOG OUT
+        </button>
+    </a>
+</div>
+
+<div id="message">Session terminated successfully</div>
+
+<script>
+document.getElementById("logoutButton").addEventListener("click", function(event) {
+    event.preventDefault(); 
+    showMessage();
+});
+
+function showMessage() {
+    var message = document.getElementById("message");
+    message.style.display = "block";
+    setTimeout(function() {
+        message.style.display = "none";
+        
+        window.location.href = "movmovie_first.html";
+    }, 1000); // Mesajın görünme süresi (1 saniye)
+}
+</script>
+</body>
+</html>

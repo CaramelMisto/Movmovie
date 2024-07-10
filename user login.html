@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="RESOURCES\background.jpg">
+    
+    <div class="container" style="width:600px; height:300px;">
+        <form id="kullaniciGiris" action="process_login.php" method="post">
+            <h2>User Login</h2>
+            <div class="input-group" style="width:550px;">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group" style="width: 550px;">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div align="center"><button type="submit" style="width: 300px;">Login</button></div>
+        </form>
+    </div>
+
+   

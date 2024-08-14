@@ -5,5 +5,6 @@
 ![Resim2](https://github.com/CaramelMisto/Movmovie/assets/116724665/e4d7c275-5a74-45ad-bf24-7f604ce27979)
 ![Resim1](https://github.com/CaramelMisto/Movmovie/assets/116724665/e79de949-86d4-45f4-9167-1790acb5c39a)
 
+OYUNUN YOUTUBE VİDEOSU:https://youtu.be/5G4Zkq_PTBg
  
 
